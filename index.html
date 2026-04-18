@@ -6,6 +6,7 @@
 <title>Ají Nomás | Galería sensorial peruana</title>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
 <link href="assets/css/styles.css" rel="stylesheet"/>
 </head>
 <body class="site-body">
@@ -301,11 +302,28 @@
 
 <footer class="site-footer">
   <div class="shell site-footer__grid">
-    <div>
+    <div class="site-footer__column site-footer__column--brand">
       <a class="brand brand--footer" href="#inicio">Ají Nomás</a>
       <p class="site-footer__text">Alta cocina peruana con mirada editorial. Tradición, fuego y producto local en una experiencia que prioriza espacio, ritmo y memoria.</p>
+      <div class="site-footer__social">
+        <p class="site-footer__heading">Síguenos</p>
+        <div class="site-footer__social-list">
+          <a aria-label="Instagram de Ají Nomás" class="site-footer__social-link site-footer__social-link--instagram" href="https://www.instagram.com/" rel="noreferrer" target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-instagram site-footer__social-icon"></i>
+          </a>
+          <a aria-label="TikTok de Ají Nomás" class="site-footer__social-link site-footer__social-link--tiktok" href="https://www.tiktok.com/" rel="noreferrer" target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-tiktok site-footer__social-icon"></i>
+          </a>
+          <a aria-label="Facebook de Ají Nomás" class="site-footer__social-link site-footer__social-link--facebook" href="https://www.facebook.com/" rel="noreferrer" target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-facebook-f site-footer__social-icon"></i>
+          </a>
+          <a aria-label="WhatsApp de Ají Nomás" class="site-footer__social-link site-footer__social-link--whatsapp" href="https://wa.me/51999999999" rel="noreferrer" target="_blank">
+            <i aria-hidden="true" class="fa-brands fa-whatsapp site-footer__social-icon"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <div>
+    <div class="site-footer__column site-footer__column--nav">
       <p class="site-footer__heading">Descubrir</p>
       <div class="site-footer__links">
         <a class="site-footer__link" href="#experiencia">La Experiencia</a>
@@ -313,7 +331,7 @@
         <a class="site-footer__link" href="#reserva">Reservaciones</a>
       </div>
     </div>
-    <div>
+    <div class="site-footer__column site-footer__column--info">
       <p class="site-footer__heading">Información</p>
       <div class="site-footer__details">
         <p>Av. Mariscal La Mar 1234<br/>Miraflores, Lima, Perú</p>
